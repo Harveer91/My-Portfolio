@@ -8,6 +8,8 @@ function App() {
     <>
       <Header/>
       <Button/>
+      <hr id="line2"></hr>
+      <hr id="line"></hr>
     </>
   );
 }

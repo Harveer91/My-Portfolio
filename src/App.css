@@ -46,6 +46,7 @@
 #main-button{
   height: 75px;
   width: 200px;
+  z-index: 1;
   text-align: center;
   border-radius: 10px;
   border-style:solid;
@@ -66,3 +67,48 @@
   transform: scale(1.05);
   box-shadow: 0 0 10px 5px hsl(0, 100%, 100%);
 }
+
+#line{
+  position:absolute;
+  top:570px;
+  left:0;
+  width: 43.5%;
+  color:white;
+  z-index: 0;
+
+}
+
+#line2{
+  position:absolute;
+  top:570px;
+  right:0;
+  width: 42.5%;
+  color:white;
+  z-index: 0;
+
+}
+
+#sections{
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+  margin-top: 20px;
+  margin-right:80px;
+  padding: 0;
+  font-size:20px;
+  color: hsl(0, 100%, 99%);
+}
+
+#sections li a{
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    color: hsl(0, 100%, 99%);
+    transition: transform 0.3s ease;
+}
+
+#sections li a:hover{
+  transform:scale(1.1);
+}
+

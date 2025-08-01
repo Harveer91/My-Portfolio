@@ -1,6 +1,14 @@
 function Header(){
     return(
         <header>
+            <nav className='navigation'>
+                <ul id="sections">
+                    <li className="section"><a href="#">Home</a></li>
+                    <li className="section"><a href="#">About</a></li>
+                    <li className="section"><a href="#">Skills</a></li>
+                    <li className="section"><a href="#">Projects</a></li>
+                </ul>
+            </nav>
             <div className="header">
                 <h1 className="Introduction" id="Name">Hi I'm Harveer</h1>
                 <div className="typing-wrapper">
