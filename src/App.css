@@ -1,1 +1,63 @@
+.header {
+  color: hsl(0, 0%, 100%);
+  text-shadow: 2px 2px 4px hsl(0, 89%, 40%);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-family:monospace;
+  font-size: 50px;
+}
 
+.typing-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+#Occupation {
+  display: inline-block;             
+  font-family: monospace;
+  color: hsl(0, 0%, 100%);
+  border-right: 2px solid hsl(0, 0%, 100%);
+  width: 0ch;                         
+  animation: typing 2.5s steps(22, end) forwards, blink-caret 0.75s step-end infinite;   
+  overflow: hidden;     
+  margin-top: 0; 
+  font-style: italic;          
+}
+
+/* Typing animation */
+@keyframes typing {
+  from { width: 0ch; }
+  to { width: 19ch; } 
+}
+
+/* Cursor blink */
+@keyframes blink-caret {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: hsl(0, 0%, 100%); }
+}
+
+#main-button{
+  height: 75px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  border-style:solid;
+  background-color: transparent;
+  border-image: linear-gradient(hsl(0, 98%, 38%),hsl(0, 97%, 14%));
+  border-image-slice: 1;
+  border-width: 6px;
+  color: hsl(0, 98%, 100%);
+  font-family: monospace;
+  font-style: bold;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+#main-button:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 5px hsl(0, 100%, 100%);
+}
