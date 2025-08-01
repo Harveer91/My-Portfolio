@@ -151,6 +151,21 @@
   border-radius: 10px; 
 }
 
+.S-title{
+  font-family: monospace;
+  font-size: 60px;
+  text-align: center;
+  color: hsl(0, 100%, 99%);
+  text-shadow:2px 2px 4px hsl(0, 89%, 40%);
+}
+
+.Languages{
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(0, 100%, 99%);
+  text-shadow:2px 2px 4px hsl(0, 89%, 40%);
+}
 .logos {
   width: 125px;
   height: 125px;
@@ -186,3 +201,46 @@
   margin-top: 30px;
 }
 
+
+.frameworksorlibraries{
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  margin: 10px;
+  box-shadow: 0 0 10px 5px rgba(170, 2, 2, 0.924);
+  background-color: transparent; 
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+}
+
+.frameworksorlibraries img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain; 
+}
+
+.frameworksorlibraries:hover{
+  transform:scale(1.1);
+  box-shadow: 0 0 15px 8px rgba(170, 2, 2, 0.95);
+}
+
+.Framework-container{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap;         
+  gap: 100px;               
+  margin-top: 30px;
+}
+
+.Frameworks-title{
+  font-family: monospace;
+  font-size: 40px;
+  text-align: center;
+  color: hsl(0, 100%, 99%);
+  text-shadow:2px 2px 4px hsl(0, 89%, 40%);
+}
