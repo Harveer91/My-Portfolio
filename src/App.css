@@ -244,3 +244,54 @@
   color: hsl(0, 100%, 99%);
   text-shadow:2px 2px 4px hsl(0, 89%, 40%);
 }
+.projects-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 32px; /* was 2rem */
+}
+
+.project-box {
+  margin-top:100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 300px;
+  height: 400px;
+  background-color: hsla(279, 92%, 20%, 0.305);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-box img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-bottom: 1px solid #ffffff;
+}
+
+.project-box h3 {
+  margin: 12px 0; 
+  font-size: 19px; 
+  font-family: monospace;
+  background-color: hsl(0, 1%, 19%);
+}
+
+.project-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 30px rgba(220, 220, 220, 0.5);
+}
+
+#Projects-title{
+  font-family: monospace;
+  font-size: 60px;
+  text-align: center;
+  color: hsl(0, 100%, 99%);
+  text-shadow:2px 2px 4px hsl(0, 89%, 40%);
+}
