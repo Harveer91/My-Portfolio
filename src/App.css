@@ -150,3 +150,39 @@
   height: 100%;      
   border-radius: 10px; 
 }
+
+.logos {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  margin: 10px;
+  box-shadow: 0 0 10px 5px rgba(170, 2, 2, 0.924);
+  background-color: transparent; 
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+
+}
+
+.logos img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain; 
+}
+
+.logos:hover{
+  transform:scale(1.1);
+  box-shadow: 0 0 15px 8px rgba(170, 2, 2, 0.95);
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap;         
+  gap: 100px;               
+  margin-top: 30px;
+}
+
