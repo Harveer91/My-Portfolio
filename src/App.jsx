@@ -8,15 +8,17 @@ function App() {
   return (
     <>
       <main>
-        <section className="page-selection" id="Home"></section>
+        <section className="page-section" id="Home">
           <Header/>
           <Button/>
           <hr id="line2"></hr>
           <hr id="line"></hr>
-        <section className="page-selection" id="About"></section>
+        </section>
+        <section className="page-section" id="About">
           <AboutMe/>
-        <section className="page-selection" id="Skills"></section>
-        <section className="page-selection" id="Projects"></section>
+        </section>
+        <section className="page-section" id="Skills"></section>
+        <section className="page-section" id="Projects"></section>
       </main>
     </>
   );
