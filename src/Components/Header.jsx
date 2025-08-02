@@ -3,10 +3,10 @@ function Header(){
         <header>
             <nav className='navigation'>
                 <ul id="sections">
-                    <li className="section"><a href="#">Home</a></li>
-                    <li className="section"><a href="#">About</a></li>
-                    <li className="section"><a href="#">Skills</a></li>
-                    <li className="section"><a href="#">Projects</a></li>
+                    <li className="section"><a href="#Home">Home</a></li>
+                    <li className="section"><a href="#About">About</a></li>
+                    <li className="section"><a href="#Skills">Skills</a></li>
+                    <li className="section"><a href="#Projects">Projects</a></li>
                 </ul>
             </nav>
             <div className="header">
