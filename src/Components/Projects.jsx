@@ -2,17 +2,17 @@ function Projects() {
   const projects = [
     {
       title: 'NFL-Win-Prediction-Model',
-      image: '/src/assets/NFL-logo.png',
+      image: '/assets/NFL-logo.png',
       link: 'https://github.com/Harveer91/NFL-Win-Prediction-Model.git',
     },
     {
       title: 'Hockey-Metrics',
-      image: '/src/assets/Hockey-logo.png',
+      image: '/assets/Hockey-logo.png',
       link: 'https://github.com/Harveer91/Hockey-Metrics.git',
     },
     {
       title: 'AI AGENT',
-      image: '/src/assets/Robot.jpg',
+      image: '/assets/Robot.jpg',
       link: null, //need to add link
     },
   ];
