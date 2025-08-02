@@ -1,6 +1,8 @@
 function Button(){
     return(
-        <button id="main-button">Explore My Portfolio</button>
+        <a href="#About">
+            <button id="main-button">Explore My Portfolio</button>
+        </a>
     )
 }
 
